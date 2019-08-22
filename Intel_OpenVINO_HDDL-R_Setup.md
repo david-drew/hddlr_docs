@@ -1,14 +1,17 @@
-# Intel® Distribution of OpenVINO™ HDDL-R Setup Guide*
+# Intel® Vision Accelerator Design with Intel® Movidius™ VPUs Setup Guide for use with Intel® Distribution of OpenVINO™ toolkit
 
-This guide includes instructions for:
-1.	Installing the required IEI* BSL reset driver.
-2.	Configuration settings for the hddldaemon service.
+The IEI Mustang-V100-MX8 is an OEM version of the Intel® Vision Accelerator Design with Intel® Movidius™ VPUs.
+This guide assumes you have installed the [Mustang-V100-MX8](https://download.ieiworld.com/) and the [Intel® Distribution of OpenVINO™ Toolkit](https://software.intel.com/en-us/openvino-toolkit).
+
+Instructions in this guide for configuring your accelerator include:
+1.	Installing the required IEI* BSL reset software.
+2.	Configuration settings for the `hddldaemon` service.
 
 **NOTE**: This guide does not apply to Uzel* cards.
 
-## IEI HDDL-R Reset Driver Installation
+## IEI  Reset Driver Installation
 
-Using an IEI HDDL-R board like the Mustang V100-MX8* requires downloading and installing the most current driver for your system.
+Using the IEI Mustang-V100-MX8 requires downloading and installing the most current driver for your system.
 
 Visit the [IEI Download Center](https://download.ieiworld.com/) for the latest drivers and to search for software and documentation.
 Search for:     **Mustang-V100-MX8**
