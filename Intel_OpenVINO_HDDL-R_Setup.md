@@ -37,9 +37,6 @@ The `hddldaemon` is a system service, a binary executable that is run to manage 
 
 **NOTE**: Graphics and other specialized processing may require some custom development.
 
-Some possible configuration options;  
-<DAVID: See this non-existent reference document for complete details.> 
-
 ### Conventions Used in this Document
 `<IE>` refers to the following default OpenVINO Inference Engine Directories:
 -  **Linux:**	    `/opt/intel/openvino/inference_engine`
@@ -51,8 +48,10 @@ If you have installed OpenVINO in a different directory on your system, you will
 
 `<IE>\external\hddl\config\hddl_service.config`
 
-### Service Configuration File Settings
+DAVID: See this non-existent reference document for complete details.
 
+### Service Configuration File Settings
+Below are some possible configuration options. 
 **NOTE:**  After changing a configuration file, the HDDL service must be restarted. 
 
 ### Settings of Interest:
