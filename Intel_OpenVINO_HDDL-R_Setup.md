@@ -13,16 +13,16 @@ Instructions in this guide for configuring your accelerator include:
 
 Using the IEI Mustang-V100-MX8 requires downloading and installing the most current driver for your system.
 
-Visit the [IEI Download Center](https://download.ieiworld.com/) for the latest drivers and to search for software and documentation.
+Visit the [IEI Download Center](https://download.ieiworld.com/) for the most current software and documentation.
 Search for:     **Mustang-V100-MX8**
 
-As of 8/13/2019, the following links were for the latest drivers:
+As of 8/13/2019, the following links were for the latest software:
 
 [IEI Reset Driver Download, Linux](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_Linux_Plugin_1.0.1.20190409.tar.gz)
 
 [IEI Reset Driver Download, Windows](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_win64_Plugin_1.0.1.20190409.7z)
 
-Download the appropriate driver for your system, decompress the downloaded archive, enter the newly created directory, and run the install script:
+Download the appropriate software for your system, decompress the downloaded archive, enter the newly created directory, and run the install script:
 
 On **Linux***:
 -  Run the `install.sh script` with `sudo`, or as `root`.
@@ -31,14 +31,14 @@ On **Windows***, do one of the following:<br>
 -  **GUI**: Double-click `install.bat`
 -  **CLI**: Open a console with administrator privileges, cd into the directory, and run `install.bat`.
 
-## HDDL-R Service Configuration
+## Mustang-V100-MX8 Service Configuration
 
-The `hddldaemon` is a system service, a binary executable that is run to manage the computational workload on the HDDL-R board.  It’s a required abstraction layer that handles inference, graphics processing, and any type of computation that should be run on the VPUs (video processing units).  Depending on the board configuration, there will be 8 or 16 VPUs on the board.
+The `hddldaemon` is a system service, a binary executable that is run to manage the computational workload on the board.  It’s a required abstraction layer that handles inference, graphics processing, and any type of computation that should be run on the VPUs (video processing units).  Depending on the board configuration, there will be 8 or 16 VPUs.
 
-**NOTE**: Graphics and other specialized computation may require some custom development.
+**NOTE**: Graphics and other specialized processing may require some custom development.
 
-The following lists a few of the possible configuration options.  
-DAVID: See this non-existent reference document for complete details. 
+Some possible configuration options;  
+<DAVID: See this non-existent reference document for complete details.> 
 
 ### Conventions Used in this Document
 `<IE>` refers to the following default OpenVINO Inference Engine Directories:
