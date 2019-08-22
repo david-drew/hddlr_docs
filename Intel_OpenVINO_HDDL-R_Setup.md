@@ -52,12 +52,12 @@ DAVID: See this non-existent reference document for complete details.
 
 ### Service Configuration File Settings
 Below are some possible configuration options. 
-**NOTE:**  After changing a configuration file, the HDDL service must be restarted. 
+**NOTE:**  After changing a configuration file, the `hddldaemon` must be restarted. 
 
-### Settings of Interest:
+### Recommended Settings:
 
 `device_snapshot_mode`<br>
-Changes the output of the HDDL service to display a table with individual VPU statistics.
+Changes the output of the `hddldaemon` to display a table with individual VPU statistics.
 
 **Default Setting:**<br>	
   `"device_snapshot_mode":    "none"`
@@ -77,7 +77,9 @@ Changes the output of the HDDL service to display a table with individual VPU st
 
 **Recommended Setting:**<br>	
   `"device_snapshot_style":    "table"`<br>
-The `table` setting is cleaner and presents labels on the left for each column.  <br>The `tape` setting prints the labels in each column.
+
+The `table` setting is visually cleaner and easier to read, and presents labels on the left for each column.  <br>
+The `tape` setting prints the labels in each column.
 
 **Supported Settings:**
 -  `tape`
@@ -87,12 +89,12 @@ The `table` setting is cleaner and presents labels on the left for each column. 
 `user_group	`<br>	
 Restricts the service to group members. 
 
-**Recommended	    TBD for individual use cases (user or service)**
+**Recommended	setting depends on your unique system configuration.**
 
 **Default Setting**	,<br>
   `“user_group”:    "users"`
 
-The HDDL-R service may be restricted to a privileged group of users.  The appropriate group will vary according to the local system configuration.
+The `hddldaemon` may be restricted to a privileged group of users.  The appropriate group will vary according to the local system configuration.
 
 **Supported Settings:**<br>
 Valid groups on the current system.  The `“users”` group is a default group that exists on Windows and most Linux distributions.
@@ -117,11 +119,11 @@ This setting reports the total FPS for the dispatching hddl_service (which will 
 `debug_service`<br>
 `“debug_service”: “false”`<br>	(Default: `“true”`)
 
-## HDDLR Programming Reference
+## Intel® Vision Accelerator Design with Intel® Movidius™ VPUs Programming Guide for use with the Intel® Distribution of OpenVINO™ toolkit
 
 The following section provides information on how to distribute a model across all 8 VPUs to maximize performance.
 
-## Programming a C++ Application for the HDDL-R
+## Programming a C++ Application for the Accelerator
 
 **Declare a Structure to Track Requests**
 
@@ -161,7 +163,7 @@ Inside the Lambda body use the completion callback function:<br>
     `(nferenceEngine::IInferRequest::Ptr context)`
 
 
-## Programming a Python Application for the HDDL-R
+## Programming a Python Application for the Intel® Vision Accelerator Design with Intel® Movidius™ VPUs for use with Intel® Distribution of OpenVINO™ toolkit
 
 [DAVID] TBD will add after receiving source from Aleks Sutic.
 
