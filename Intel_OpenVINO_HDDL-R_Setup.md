@@ -13,14 +13,14 @@ Instructions in this guide for configuring your accelerator include:
 
 Using the IEI Mustang-V100-MX8 requires downloading and installing the most current software for your system.
 
-Visit the [IEI Download Center](https://download.ieiworld.com/) for the most current software and documentation.
+Visit the [IEI Download Center](https://download.ieiworld.com/) for the most current software and documentation.<br>
 Search for:     **Mustang-V100-MX8**
 
 As of 8/13/2019, the following links were for the latest software:
 
-[IEI Reset Software Download, Linux](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_Linux_Plugin_1.0.1.20190409.tar.gz)
+-  [IEI Reset Software Download, Linux](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_Linux_Plugin_1.0.1.20190409.tar.gz)
 
-[IEI Reset Software Download, Windows](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_win64_Plugin_1.0.1.20190409.7z)
+-  [IEI Reset Software Download, Windows](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_win64_Plugin_1.0.1.20190409.7z)
 
 Download the appropriate software for your system, decompress the downloaded archive, enter the newly created directory, and run the install script:
 
@@ -51,7 +51,7 @@ If you have installed OpenVINO in a different directory on your system, you will
 DAVID: See this non-existent reference document for complete details.
 
 ### Service Configuration File Settings
-Below are some possible configuration options. 
+Below are some possible configuration options. <br>
 **NOTE:**  After changing a configuration file, the `hddldaemon` must be restarted. 
 
 ### Recommended Settings:
@@ -66,7 +66,7 @@ Changes the output of the `hddldaemon` to display a table with individual VPU st
   `"device_snapshot_mode":    "full"`
 
 **Supported Settings:**
--  `none` (Default)
+-  `none` (default)
 -  `base`
 -  `full`
 
@@ -78,13 +78,12 @@ Changes the output of the `hddldaemon` to display a table with individual VPU st
 **Recommended Setting:**<br>	
   `"device_snapshot_style":    "table"`<br>
 
-The `table` setting is visually cleaner and easier to read, and presents labels on the left for each column.  <br>
+The `table` setting presents labels on the left for each column and is recommended as easier to read.  <br>
 The `tape` setting prints the labels in each column.
 
 **Supported Settings:**
 -  `tape`
 -  `table` (default)
-
 
 `user_group	`<br>	
 Restricts the service to group members. 
@@ -117,7 +116,7 @@ Requires the squeeze scheduler.  This setting might speed up performance signifi
 This setting reports the total FPS for the dispatching hddl_service (which will have one or more clients per app).
 
 `debug_service`<br>
-`“debug_service”: “false”`<br>	(Default: `“true”`)
+`“debug_service”: “false”`<br>	(default: `“true”`)
 
 ## Intel® Vision Accelerator Design with Intel® Movidius™ VPUs Programming Guide for use with the Intel® Distribution of OpenVINO™ toolkit
 
