@@ -9,18 +9,18 @@ Instructions in this guide for configuring your accelerator include:
 
 **NOTE**: This guide does not apply to Uzel* cards.
 
-## IEI  Reset Driver Installation
+## IEI  Reset Software Installation
 
-Using the IEI Mustang-V100-MX8 requires downloading and installing the most current driver for your system.
+Using the IEI Mustang-V100-MX8 requires downloading and installing the most current software for your system.
 
 Visit the [IEI Download Center](https://download.ieiworld.com/) for the most current software and documentation.
 Search for:     **Mustang-V100-MX8**
 
 As of 8/13/2019, the following links were for the latest software:
 
-[IEI Reset Driver Download, Linux](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_Linux_Plugin_1.0.1.20190409.tar.gz)
+[IEI Reset Software Download, Linux](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_Linux_Plugin_1.0.1.20190409.tar.gz)
 
-[IEI Reset Driver Download, Windows](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_win64_Plugin_1.0.1.20190409.7z)
+[IEI Reset Software Download, Windows](https://dls.ieiworld.com/IEIWeb/PDC_APP/PLM/OWFP000225/Mustang-V100_win64_Plugin_1.0.1.20190409.7z)
 
 Download the appropriate software for your system, decompress the downloaded archive, enter the newly created directory, and run the install script:
 
