@@ -26,7 +26,7 @@ The installation created a new directory in your home directory:
 
 `~/inference_engine_samples_build`
 
-Familiarize yourself with OpenVINO by exploring that directory.
+This is where sample applications are installed, after they are compiled.  You will have to compile most of the samples.
  
 ## <a name="dldt-installation-directory-structure"></a> Installation Directory Structure
 
