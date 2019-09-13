@@ -22,7 +22,7 @@ The basic OpenVINO workflow is as follows:
 
 ## <a name="openvino-installation"></a>OpenVINO Installation
 This guide assumes that you have completed installation of OpenVINO. <br>
-The installation created a new directory to your home directory:
+The installation created a new directory in your home directory:
 
 `~/inference_engine_samples_build`
 
