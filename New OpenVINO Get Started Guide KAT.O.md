@@ -19,11 +19,14 @@ The basic OpenVINO workflow is as follows:
 This guide assumes that you have completed installation of OpenVINO. <br>
 The installation created a new directory in your home directory:
 
-`~/inference_engine_samples_build`
+`~/omz_demos_build`
+
+Note: There are 2 similar directories that contain samples, but we won't be using them for this tutorial.  For completeness, they are:
+    `~/inference_engine_samples_build`
+    `~/inference_engine_demos_build`
 
 This is where sample applications are installed, after they are compiled.  You will have to compile most of the samples.
 
-NOTE: Starting with 2019.r2, there's an additional directory that also includes samples, inference_engine_demos_build, but we won't be using this for the current tutorial.
 
 ## <a name="dldt-installation-directory-structure"></a> Installation Directory Structure
 
