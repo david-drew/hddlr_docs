@@ -9,10 +9,6 @@ It consists of three primary components:
 
 ## <a name="workflow-overview"></a>OpenVINO Workflow Overview
 
-![](docs/MO_DG/img/workflow_overview.png)
-
-![](docs/MO_DG/img/workflow_overview_2.png)
-
 The basic OpenVINO workflow is as follows:
 1.	Run an existing trained model through the Model Optimizer. 
 2.	The Model Optimizer produces an Interemediate Representation file (IR).
@@ -94,8 +90,6 @@ Models May Be:
 
 Descriptions of Intel’s pre-trained models (links to download are not included): 
 
-KAT: What do we mean "not included"?  Can we include the link?
-
 https://software.intel.com/en-us/openvino-toolkit/documentation/pretrained-models
 
 ## <a name="downloading-models"></a> Downloading Models
@@ -172,7 +166,6 @@ Convert a model using the Model Optmizer then use a sample application to load t
 
 In this section, you will convert an FP32 model suitable for running on a CPU.
 
-KAT- Do we want this in the Tutorial section?
 1.	Make a directory for the FP32 SqueezeNet Model:
 
     `mkdir ~/squeezenet1.1_FP32`
@@ -199,8 +192,6 @@ KAT- Do we want this in the Tutorial section?
 
     `./classification_sample -i car.png -m ~/squeezenet1.1_FP32/squeezenet1.1.xml -d CPU`
 
-KAT - Muki's Note: Below would be the beginning of the Tutorial section. However, I'm wondering if some of the above fits logically into the tutorial?
-
 ## <a name="Exercises"></a> Exercises
 
 The following series of exercises guide you through using samples of increasing complexity. As you move through each exercise you will get a sense of how to use OpenVINO in more sophisticated use cases. 
@@ -212,7 +203,7 @@ The following series of exercises guide you through using samples of increasing 
 **Sample 1: Human Pose Estimation**
 
 This demo detects people and draws a stick figure inside them to show limb positions. This model has already been converted for use with OpenVINO. 
-- Requires downloading the human-pose-estimation-0001 (ICV) Model.  (KAT- Where from?)
+- Requires downloading the human-pose-estimation-0001 (ICV) Model.
 - Requires video or camera input.
 
 General Syntax:
@@ -261,7 +252,6 @@ https://www.pexels.com/video/couple-dancing-on-sunset-background-2035509/
 
     `./human_pose_estimation_demo -i ~/Videos/humpose.mp4 -m ~/ir/human-pose-estimation-0001.xml -d CPU`
 
-KAT - Can we provide info on what the expected results will be?
 
 **Sample 2: Interactive Face Detection**
 
@@ -280,7 +270,7 @@ Syntax:
 
 Steps to complete:
 
-1.	Find and download an appropriate face detection model (there are several already available in the Intel Model Zoo). KAT: Let's make this a live link.
+1.	Find and download an appropriate face detection model (there are several already available in the Intel Model Zoo).
 2.	Find and download a video that features faces.
 3.	Run the demo with just the face detection model.
 4.	OPTIONAL: Run the demo using additional models (age-gender, emotion recognition, head pose, etc.).
@@ -308,7 +298,6 @@ The YOLO topology is a very popular one because it offers both accuracy and perf
 
 Different sample applications are used for SSD and YOLO models because the output format of YOLO is different than the output format for SSD. The same application could support both, but in these samples they’re kept separate for simplicity. Different versions of YOLO have slightly different output. This sample only supports the most recent version, YOLO V3.
 
-KAT - No steps?
 
 ## Additional Resources
 
