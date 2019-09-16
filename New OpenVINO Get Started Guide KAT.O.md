@@ -9,7 +9,6 @@ It consists of three primary components:
 
 ## <a name="workflow-overview"></a>OpenVINO Workflow Overview
 
-[KAT - WORKFLOW GRAPHIC WILL BE INSERTED HERE.]
 ![](docs/MO_DG/img/workflow_overview.png)
 
 ![](docs/MO_DG/img/workflow_overview_2.png)
