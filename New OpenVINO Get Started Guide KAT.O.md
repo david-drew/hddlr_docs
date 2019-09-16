@@ -22,7 +22,9 @@ The installation created a new directory in your home directory:
 `~/inference_engine_samples_build`
 
 This is where sample applications are installed, after they are compiled.  You will have to compile most of the samples.
- 
+
+NOTE: Starting with 2019.r2, there's an additional directory that also includes samples, inference_engine_demos_build, but we won't be using this for the current tutorial.
+
 ## <a name="dldt-installation-directory-structure"></a> Installation Directory Structure
 
 After you installed the Intel® Distribution of OpenVINO™ toolkit to the `<INSTALL_DIR>`, the DLDT root directory is created: `<INSTALL_DIR>/deployment_tools`. This directory contains all the DLDT components files and includes the following key directories:
