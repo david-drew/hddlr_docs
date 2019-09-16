@@ -108,7 +108,7 @@ There are several ways to find models suitable for use with OpenVINO:
     - https://software.intel.com/en-us/articles/model-downloader-essentials)
 1.	To list the models available in the downloader enter the following command: 
 
-    `grep name list_topologies.yml |grep -v fp16|grep -v int8|grep xml|sort`
+    `grep name list_topologies.yml |grep -vi fp16|grep -vi int8|grep xml|sort`
 
 2.	Optional add (at the end): 
     
