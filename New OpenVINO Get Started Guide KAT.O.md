@@ -61,7 +61,7 @@ Following are some basic guidelines for executing the OpenVINO workflow and usin
 1.	Before using OpenVINO, always setup the environment: 
 
     `source /opt/intel/openvino/bin/setupvars.sh` 
-    KAT: Is this permanent? Or per shell?
+    
 2.	Have the directory pathways for the following:
 - Sample application:
 These are binaries located in:
