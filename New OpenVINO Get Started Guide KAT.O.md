@@ -206,7 +206,7 @@ The following series of exercises guide you through using samples of increasing 
 
 `cd ~/omz_demos_build/intel64/Release`
 
-**Sample 1: Human Pose Estimation**
+**Exercise 1: Human Pose Estimation**
 
 This demo detects people and draws a stick figure inside them to show limb positions. This model has already been converted for use with OpenVINO. 
 - Requires downloading the human-pose-estimation-0001 (ICV) Model.
@@ -259,7 +259,7 @@ https://www.pexels.com/video/couple-dancing-on-sunset-background-2035509/
     `./human_pose_estimation_demo -i ~/Videos/humpose.mp4 -m ~/ir/human-pose-estimation-0001.xml -d CPU`
 
 
-**Sample 2: Interactive Face Detection**
+**Exercise 2: Interactive Face Detection**
 
 The face detection demo draws bounding boxes around faces, and optionally feeds the output of the primary model to additional models. This model has already been converted for use with OpenVINO.
 
@@ -282,7 +282,7 @@ Steps to complete:
 4.	OPTIONAL: Run the demo using additional models (age-gender, emotion recognition, head pose, etc.).
 
 
-**Sample 3: Object Detection (YOLO v3)**
+**Exercise 3: Object Detection (YOLO v3)**
 
 This demo draws bounding boxes around detected objects. The class of objects detected depends on the model, but it’s often 1000 categories. 
 
