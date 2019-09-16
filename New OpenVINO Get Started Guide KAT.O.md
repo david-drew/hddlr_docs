@@ -281,22 +281,8 @@ Steps to complete:
 3.	Run the demo with just the face detection model.
 4.	OPTIONAL: Run the demo using additional models (age-gender, emotion recognition, head pose, etc.).
 
-**Sample 3: Object Detection (SSD, async)**
 
-This demo draws bounding boxes around detected objects. The class of objects detected depends on the model, but it’s often approximately 1,000 categories.
-
-The face detection demo uses the same type of model (SSD), but has toggles for additional models, such as age-gender recognition.
-
-- Requires video or camera input (you can find a video to download).
-- Requires an SSD model in Intel-compatible format: 
-    - `vehicle-detection-adas-0002`
-
-Syntax:
-
-`./object_detection_demo_ssd_async -i path/to/video -m path/to/model \ -d processor_type`
-
-
-**Sample 4: Object Detection (YOLO v3)**
+**Sample 3: Object Detection (YOLO v3)**
 
 This demo draws bounding boxes around detected objects. The class of objects detected depends on the model, but it’s often 1000 categories. 
 
