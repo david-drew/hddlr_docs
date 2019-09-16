@@ -1,3 +1,4 @@
+
 # Get Started with OpenVINO™ for Linux*
 
 ## <a name="openvino-components"></a>OpenVINO Components
@@ -70,7 +71,7 @@ Following are some basic guidelines for executing the OpenVINO workflow and usin
 2.	Have the directory pathways for the following:
 - Sample application:
 These are binaries located in:
-``~/inference_engine_samples_build/intel64/Release`
+``~/omz_demos_build/intel64/Release`
 - Media: video or image.
 - Model: Neural Network topology converted to a Model Optimizer compatible format, an XML file. See **Models** below for more information.
 
@@ -189,11 +190,11 @@ In this section, you will convert an FP32 model suitable for running on a CPU.
 
 5.	Copy a sample image to the release directory. You will use this with your optimized model:
 
-    `sudo cp /opt/intel/openvino/deployment_tools/demo/car.png  ~/inference_engine_samples_build/intel64/Release`
+    `sudo cp /opt/intel/openvino/deployment_tools/demo/car.png  ~/omz_demos_build/intel64/Release`
 
 6. Once your setup is complete, you're ready to run a sample application:
 
-    `cd ~/inference_engine_samples_build/intel64/Release`
+    `cd ~/omz_demos_build/intel64/Release`
 
     `./classification_sample -i car.png -m ~/squeezenet1.1_FP32/squeezenet1.1.xml -d CPU`
 
@@ -203,7 +204,7 @@ The following series of exercises guide you through using samples of increasing 
 
 **NOTE:** Before starting these sample exercises, change directories into the samples directory:
 
-`cd ~/inference_engine_samples_build/intel64/Release`
+`cd ~/omz_demos_build/intel64/Release`
 
 **Sample 1: Human Pose Estimation**
 
@@ -253,7 +254,7 @@ https://www.pexels.com/video/couple-dancing-on-sunset-background-2035509/
 
 7. Run the sample:
 
-    `cd ~/inference_engine_samples_build/intel64/Release/`
+    `cd ~/omz_demos_build/intel64/Release/`
 
     `./human_pose_estimation_demo -i ~/Videos/humpose.mp4 -m ~/ir/human-pose-estimation-0001.xml -d CPU`
 
