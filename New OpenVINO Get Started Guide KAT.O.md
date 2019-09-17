@@ -283,9 +283,10 @@ Steps to complete:
 
 
 **Exercise 3: Object Detection (Vehicles with multiple models)**
+
 As mentioned in the previous exercise, it's possible to chain models together and use the output of an initial object detection model as input of additional models.
 
-Using the `security_barrier_camera_demo`:
+The following exercise expects the use of the `security_barrier_camera_demo`.
 
 Steps to complete:
 1. Find and download a model that supports vehicle detection.
@@ -293,6 +294,7 @@ Steps to complete:
 3. Run the `security_barrier_camera_demo` and check that vehicles are detected.
 4. Choose at least one additional model (such as attribute recognition), and run the application, now using the initial model plus the new one.
 5. OPTIONAL: Run the demo with vehicle detection (primary), plus attribute recognition and license plate recognition.
+
 
 **Exercise 4: Object Detection (YOLO v3)**
 
