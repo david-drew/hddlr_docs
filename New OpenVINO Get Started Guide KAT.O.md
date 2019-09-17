@@ -31,9 +31,7 @@ This is where sample applications are installed, after they are compiled.  You w
 
 ## <a name="dldt-installation-directory-structure"></a> Installation Directory Structure
 
-After you installed the Intel® Distribution of OpenVINO™ toolkit to the `<INSTALL_DIR>` (/opt/intel/openvino by default), the DLDT root directory is created: `<INSTALL_DIR>/deployment_tools`. This directory contains all the DLDT components files and includes the following key directories:
-
-Default Directory, `<INSTALL_DIR>` is `/opt/intel/openvino` by default, though the location is up to the user.
+By default, the installation directory is`/opt/intel/openvino`, though the location is up to the user.
 
 | Directory&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description                                                                           |  
 |:----------------------------------------|:--------------------------------------------------------------------------------------|
