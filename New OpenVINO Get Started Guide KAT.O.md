@@ -129,6 +129,8 @@ There are multiple sources for downloading video media for use with samples. Pos
 
 ## <a name="syntax-examples"></a> Typical Sample Application Syntax Examples
 
+Compiled sample applications for this tutorial are found in: `~/omz_demos_build/intel64/Release`.
+
 Here is a template for calling a sample app:
 
 `path_to_app -i path_to_media -m path_to_model -d processor_type`
