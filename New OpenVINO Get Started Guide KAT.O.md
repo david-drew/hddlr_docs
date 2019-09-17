@@ -109,7 +109,7 @@ There are several ways to find models suitable for use with OpenVINO:
 - Intel’s Model Downloader tool:
     - https://software.intel.com/en-us/articles/model-downloader-essentials)
     
-    1.	To list the models available in the downloader enter the following command: 
+    1.	To list the FP32 models available in the downloader enter the following command: 
     
         `cd /opt/intel/openvino/deployment_tools/tools/model_downloader/`
         
