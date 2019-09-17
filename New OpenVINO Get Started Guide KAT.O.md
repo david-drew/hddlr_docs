@@ -282,7 +282,19 @@ Steps to complete:
 4.	OPTIONAL: Run the demo using additional models (age-gender, emotion recognition, head pose, etc.).
 
 
-**Exercise 3: Object Detection (YOLO v3)**
+**Exercise 3: Object Detection (Vehicles with multiple models)**
+As mentioned in the previous exercise, it's possible to chain models together and use the output of an initial object detection model as input of additional models.
+
+Using the `security_barrier_camera_demo`:
+
+Steps to complete:
+1. Find and download a model that supports vehicle detection.
+2. Find and download a video that contains cars to be detected.
+3. Run the `security_barrier_camera_demo` and check that vehicles are detected.
+4. Choose at least one additional model (such as attribute recognition), and run the application, now using the initial model plus the new one.
+5. OPTIONAL: Run the demo with vehicle detection (primary), plus attribute recognition and license plate recognition.
+
+**Exercise 4: Object Detection (YOLO v3)**
 
 This demo draws bounding boxes around detected objects. The class of objects detected depends on the model, but it’s often 1000 categories. 
 
