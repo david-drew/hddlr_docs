@@ -33,6 +33,7 @@ This is where sample applications are installed, after they are compiled.  You w
 
 By default, the installation directory is`/opt/intel/openvino`, though the location is up to the user.
 
+
 | Directory&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description                                                                           |  
 |:----------------------------------------|:--------------------------------------------------------------------------------------|
 | `demo/`                                 | Demo scripts. Used to verify the installation and compile two sample applications included into the installation. See the *Run the Verification Scripts to Verify Installation and Compile Samples* section in the [installation steps](./docs/install_guides/installing-openvino-linux.md).|
@@ -107,15 +108,16 @@ There are several ways to find models suitable for use with OpenVINO:
 - Train your own model
 - Intel’s Model Downloader tool:
     - https://software.intel.com/en-us/articles/model-downloader-essentials)
-1.	To list the models available in the downloader enter the following command: 
-
-    `grep name list_topologies.yml |grep -vi fp16|grep -vi int8|grep xml|sort`
-
-2.	Optional add (at the end): 
     
-    `| grep <model_name>`
+    1.	To list the models available in the downloader enter the following command: 
 
-3.	Always run the downloader with `sudo`.
+        `grep name list_topologies.yml |grep -vi fp16|grep -vi int8|grep xml|sort`
+
+    2.	Optional add (at the end): 
+
+        `| grep <model_name>`
+
+    3.	Always run the downloader with `sudo`.
 
 ## <a name="downloading-media"></a> Downloading Media
 
