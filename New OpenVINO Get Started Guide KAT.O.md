@@ -204,6 +204,10 @@ In this section, you will convert an FP32 model suitable for running on a CPU.
 
     `./classification_sample -i car.png -m ~/squeezenet1.1_FP32/squeezenet1.1.xml -d CPU`
 
+7. Note: you can usually see an applications help information (parameters, etc.) by using `-h`.
+
+    `./classification_sample -h`
+
 ## <a name="Exercises"></a> Exercises
 
 The following series of exercises guide you through using samples of increasing complexity. As you move through each exercise you will get a sense of how to use OpenVINO in more sophisticated use cases. 
