@@ -210,6 +210,8 @@ The following series of exercises guide you through using samples of increasing 
 
 `cd ~/omz_demos_build/intel64/Release`
 
+**NOTE:** During this exercise you will be asked to move to multiple different directories, and occasionally to copy files (so that you don't have to specify full paths in commands).  You are welcome to set up environment variables to make these tasks easier, but we leave that to you.
+
 **Exercise 1: Human Pose Estimation**
 
 This demo detects people and draws a stick figure inside them to show limb positions. This model has already been converted for use with OpenVINO. 
