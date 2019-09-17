@@ -33,6 +33,8 @@ This is where sample applications are installed, after they are compiled.  You w
 
 After you installed the Intel® Distribution of OpenVINO™ toolkit to the `<INSTALL_DIR>` (/opt/intel/openvino by default), the DLDT root directory is created: `<INSTALL_DIR>/deployment_tools`. This directory contains all the DLDT components files and includes the following key directories:
 
+Default Directory, `<INSTALL_DIR>` is `/opt/intel/openvino` by default, though the location is up to the user.
+
 | Directory&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description                                                                           |  
 |:----------------------------------------|:--------------------------------------------------------------------------------------|
 | `demo/`                                 | Demo scripts. Used to verify the installation and compile two sample applications included into the installation. See the *Run the Verification Scripts to Verify Installation and Compile Samples* section in the [installation steps](./docs/install_guides/installing-openvino-linux.md).|
