@@ -262,7 +262,7 @@ https://www.pexels.com/video/couple-dancing-on-sunset-background-2035509/
 
     Rename the video for convenience:
 
-    `mv ~/Downloads/”Pexels Videos 2035509.mp4” ~/Videos/humpose.mp4`
+    `mv ~/Downloads/Pexels\ Videos\ 2035509.mp4 ~/Videos/humpose.mp4`
 
 7. Run the sample:
 
