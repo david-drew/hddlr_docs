@@ -4,11 +4,11 @@
 
 ANDREY: Let's link to all 5 of the other HDDL-R docs here, as a list;
 
-- Intel Movidius VPUs Programming Guide for use with Intel Distribution of OpenVINO
-- Intel Vision Accelerator Design with Intel Movidius VPUs HAL Configuration Guide
-- Intel Vision Accelerator Design with Intel Movidius VPUs Workload Distribution User Guide
-- Intel Vision Accelerator Design with Intel Movidius VPUs Scheduler User Guide
-- Intel Vision Accelerator Design with Intel Movidius VPUs Errata
+- Intel® Movidius™ VPUs Programming Guide for use with the Intel® Distribution of OpenVINO™
+- Intel® Vision Accelerator Design with Intel® Movidius™ VPUs HAL Configuration Guide
+- Intel® Vision Accelerator Design with Intel® Movidius™ VPUs Workload Distribution User Guide
+- Intel® Vision Accelerator Design with Intel® Movidius™ VPUs Scheduler User Guide
+- Intel® Vision Accelerator Design with Intel® Movidius™ VPUs Errata
 
 The IEI Mustang-V100-MX8 is an OEM version of the Intel® Vision Accelerator Design with Intel® Movidius™ VPUs.
 This guide assumes you have installed the [Mustang-V100-MX8](https://download.ieiworld.com/) and the [Intel® Distribution of OpenVINO™ Toolkit](https://software.intel.com/en-us/openvino-toolkit).
