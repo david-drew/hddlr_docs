@@ -72,7 +72,7 @@ Following are some basic guidelines for executing the OpenVINO workflow and usin
 2.	Have the directory pathways for the following:
 - Sample application:
 These are binaries located in:
-``~/omz_demos_build/intel64/Release`
+`~/omz_demos_build/intel64/Release`
 - Media: video or image.
 - Model: Neural Network topology converted to a Model Optimizer compatible format, an XML file. See **Models** below for more information.
 
