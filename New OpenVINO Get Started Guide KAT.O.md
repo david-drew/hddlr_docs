@@ -294,6 +294,7 @@ Steps to complete:
 2.	Find and download a video that features faces.
 3.	Run the demo with just the face detection model.
 4.	OPTIONAL: Run the demo using additional models (age-gender, emotion recognition, head pose, etc.).
+    - Note that when you use multiple models, there is always a primary model that is used, and then a number of optional models that use the output from the initial model.
 
 
 **Exercise 3: Object Detection (Vehicles with multiple models)**
