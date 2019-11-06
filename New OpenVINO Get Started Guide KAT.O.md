@@ -290,6 +290,7 @@ Steps to complete:
 
 1.	Find and download an appropriate face detection model (there are several already available in the Intel Model Zoo).
     - You can use the [Pretrained Models](https://software.intel.com/en-us/openvino-toolkit/documentation/pretrained-models) page from the online OpenVINO documentation to review model options.
+    - You may need to try out different models to find one that works, or that works best.
 2.	Find and download a video that features faces.
 3.	Run the demo with just the face detection model.
 4.	OPTIONAL: Run the demo using additional models (age-gender, emotion recognition, head pose, etc.).
