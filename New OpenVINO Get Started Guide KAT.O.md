@@ -1,6 +1,8 @@
 
 # Get Started with OpenVINO™ for Linux*
 
+[Deprecated - Please Go Here](https://github.com/david-drew/OpenVINO-Samples/blob/master/OpenVINO_Samples_Guide.md)
+
 ## <a name="openvino-components"></a>OpenVINO Components
 The OpenVINO toolkit optimizes and runs Deep Learning Neural Network models on Intel hardware.
 It consists of three primary components:
