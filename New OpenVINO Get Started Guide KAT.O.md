@@ -6,7 +6,7 @@
 ## <a name="openvino-components"></a>OpenVINO Components
 The OpenVINO toolkit optimizes and runs Deep Learning Neural Network models on Intel hardware.
 It consists of three primary components:
-1.	**Model Optimizer:** Optimizes models for Intel architecture, as well as converts models into a format compatible with the Inference Engine. This format is called an Intemediate Representation (IR).
+1.	**Model Optimizer:** Optimizes models for Intel architecture, as well as converts models into a format compatible with the Inference Engine. This format is called an Intermediate Representation (IR).
 2.	**Intermediate Representation (IR):** The output of the Model Optimizer. A model converted to a format that has been optimized for Intel architecture and is usable by the Inference Engine.
 3.	**Inference Engine:** The software libraries that run inference against the Intermediate Representation (Optimized Model) and produce inference results
 
@@ -14,7 +14,7 @@ It consists of three primary components:
 
 The basic OpenVINO workflow is as follows:
 1.	Run an existing trained model through the Model Optimizer. 
-2.	The Model Optimizer produces an Interemediate Representation file (IR).
+2.	The Model Optimizer produces an Intermediate Representation file (IR).
 3.	Application (an Intel sample or one you have built) uses the Inference Engine to run inference against the Intermediate Representation (Optimized Model).
 4.	Application outputs inference results. 
 
@@ -172,7 +172,7 @@ You can see all the sample application’s parameters by adding the `-h` or `--h
 
 ## <a name="run-sample-application"></a> Run A Sample Application 
 
-Convert a model using the Model Optmizer then use a sample application to load the model and run inference.
+Convert a model using the Model Optimizer then use a sample application to load the model and run inference.
 
 **NOTE:** If you are running inference only on a CPU, you already have the required FP32 model. If you want to run inference on any hardware other than the CPU, you'll need an FP16 version of the model.
 
@@ -206,7 +206,7 @@ In this section, you will convert an FP32 model suitable for running on a CPU.
 
     `./classification_sample -i car.png -m ~/squeezenet1.1_FP32/squeezenet1.1.xml -d CPU`
 
-7. Note: you can usually see an applications help information (parameters, etc.) by using `-h`.
+**NOTE:** Using the `-h` option will typically display an application's help information (parameters, etc.).
 
     `./classification_sample -h`
 
@@ -245,7 +245,7 @@ path/to/model/human-pose-estimation-0001.xml -d CPU`
 
     `grep human-pose list_topologies.yml |grep -vi int8|grep -vi fp16`
 
-**NOTE:** `list_topologies.yml` is a text (YAML) file with a list and details about every model available in the Intel Model Zoo.  Models can also be manually downloaded at the github page.
+**NOTE:** `list_topologies.yml` is a text (YAML) file with a list and details about every model available in the Intel Model Zoo.  Models can also be manually downloaded at the GitHub page.
 
 4. Download the model:
 
