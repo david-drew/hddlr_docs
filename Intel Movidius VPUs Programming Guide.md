@@ -49,7 +49,7 @@ For inference requests, use the asynchronous IE API calls:<br>
 Inside the Lambda body use the completion callback function:<br>
 
     `request[i].inferRequest->SetCompletionCallback`<br>
-    `(nferenceEngine::IInferRequest::Ptr context)`
+    `(InferenceEngine::IInferRequest::Ptr context)`
 
 
 ## Additional Resources
